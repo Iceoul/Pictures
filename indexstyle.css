@@ -19,8 +19,9 @@ header{
   margin: 0;
   min-width: 1024px;
   background-color: #2a3e50;
-  box-shadow: 0 1px 2px #ccc;
+  box-shadow: 0 1px 2px #333;
 
+  z-index: 9999999;
   position: fixed;
 }
 .logo{margin-left:20px;width: 140px;float: left;text-align: center;}
@@ -40,14 +41,33 @@ input{ height:30px; line-height: 30px; border-radius: 3px; padding:0 0 0 5px; ma
 .btn{ height:30px; line-height: 35px; border-radius: 3px; padding:4px 8px 8px 8px; margin:0 0 0-6px ; background-color: #fff;color: #2a3e50;font-size: 15px; cursor: pointer;}
 
 .right-box .search-box{ line-height: 40px;margin: 0; padding:0; }
-.right-box .search-box input{ border-top-right-radius: 0; border-bottom-right-radius: 0; width:;}
+.right-box .search-box input{ border-top-right-radius: 0; border-bottom-right-radius: 0; line-height: 14px;}
 .right-box .search-box .btn{ border-top-left-radius: 0; border-bottom-left-radius: 0;}
 .right-box .add-popup{ border-left:1px solid #293440; border-right:1px solid #293440; line-height: 50px; padding:0 15px;margin-left: 10px;font-size: 20px;}
 .right-box .state-box{ line-height: 50px; padding:0 15px;font-size: 13px; font-weight: normal;}
 .right-box .state-box a{ color: #fff; text-decoration: none;}
-.container{width: 100%; overflow: hidden; padding:0 20px}
+.container{width: 100%; overflow: hidden;}
 
 
-.col{width: 25%;height: auto; padding:5px;}
-.row{width:100%;}
+.col{width: 20%;height: auto; padding:5px;}
+.row{width:100%;margin: 0 10px;}
+
+.mainbody{top:60px;position: relative;}
+.user-box{border-radius: 10px;box-shadow:0 0px 5px #ddd; display: block;overflow: hidden;background-color: #fff;}
+.user-box .profile-pic{ width: 100%; display: block;background-color: #f3f3f3; }
+.user-box .profile-pic img{ width: 100%;}
+.user-box .pic-info{font-size:14px; font-weight: 400; color:#666;padding: 10px}
+.user-box .user-name{border-top: 1px #eee solid; height: 50px;padding: 5px;}
+.user-box .user-name .upic{width: 34px;height: 34px;margin: 8px 0;display: block;float: left;}
+.user-box .user-name .upic img{width: 100%}
+.user-box .user-name .txt{margin-left: 34px; height: 51px; padding: 8px 0 0 10px; line-height: 1.5; font-size: 12px;}
+.user-box .user-name .txt .inner{height: 37px;overflow: hidden;}
+.user-box .user-name .txt .inner .line {display: inline-block; width: 100%;}
+.user-box .user-name .txt .inner .line a{color: #dc485b;}
+
+.pull-right{float:right !important;}
+
+
+
+
 
