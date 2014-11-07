@@ -25,7 +25,7 @@ header{
   position: fixed;
 }
 .logo{margin-left:20px;width: 140px;float: left;text-align: center;}
-.logo{display: block;overflow: hidden;height: 50px;line-height: 50px;color: #fff;background-image: url(../logo.png);background-repeat: no-repeat;
+.logo{display: block;overflow: hidden;height: 50px;line-height: 50px;color: #fff;background-image: url(../img/logo.png);background-repeat: no-repeat;
       -webkit-transition:background-position linear .15s;
          -moz-transition:background-position linear .15s;
               transition:background-position linear .15s
